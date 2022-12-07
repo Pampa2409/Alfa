@@ -10,7 +10,8 @@ body #index{
     align-items: center;
 }
 body{
-    background-image: url(../mirallaFotos/Ifondo.jpg);
+    background-image: url(../mirallaFotos/bf80b211083afa973600c685d37352e2.jpg);
+    
 }
 
 .rubros__titulo{
@@ -152,6 +153,7 @@ footer{
     font-style: oblique;
     font-weight: bolder;
     font-size: large;
+    color: black;
 }
 .Empresas{
     align-items: center;
@@ -188,7 +190,8 @@ footer{
     font-weight: 600;
     line-height: normal;
     font-family: cursive;
-    color: rgb(143, 142, 145);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
 .texto-rubro{
     font-size: x-large;
