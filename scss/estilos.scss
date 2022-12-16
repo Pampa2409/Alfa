@@ -1,0 +1,141 @@
+/*1ero*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*index*/
+@import "utilidades/index";
+/*referido a header*/ 
+@import "utilidades/header";
+/* referido a body*/
+@import "utilidades/body";
+
+/* resto de las paginas*/
+
+.elementos {
+    -moz-text-decoration-color: black;
+    text-decoration-color: black;
+}
+
+.btn-empresas {
+    margin-top: 10%;
+    height: 45%;
+    width: 40%;
+    background-color: rgb(22, 185, 95);
+    animation-name: boton_empresas;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+@keyframes boton_empresas {
+    from {
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    to {
+        -o-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+.home-descripcion {
+    padding-bottom: 15%;
+}
+
+#tarjetas_rubros {
+    padding-left: 12%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 8%;
+}
+
+#rubros-descripcion {
+    margin: 10% 3% 10% 3%
+}
+
+.rubro {
+    background-color: rgb(138, 138, 138);
+    margin-bottom: 5%;
+}
+.contacto {
+    margin: 10% 30% 20% 30%;
+}
+
+.contacto p {
+    font-size: x-large;
+    font-style: oblique;
+    font-stretch: expanded;
+}
+
+.titulo {
+    text-align: center;
+    padding: 4rem 8rem 4rem 8rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: space-around;
+
+}
+.rubros__titulo {
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.nombre {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    padding: 30;
+}
+#home__items {
+    padding: 10% 10% 10% 10%;
+}
+
+.carousel-inner {
+    width: 50%;
+    height: 40%;
+}
+
+.home-descripcion {
+    font-size: x-large;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.texto-rubro {
+    font-size: x-large;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    font-family: cursive;
+}
+
+.empresas-titulo {
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
